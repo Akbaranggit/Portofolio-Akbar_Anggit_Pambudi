@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Akbar Anggit Pambudi</title>
+    <link rel="stylesheet" href="../style.css">
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+    <style>
+        .judul{
+            text-align: center;
+            padding: 25px 0;
+            background-image: url("../img/judul.png");
+            background-repeat: no-repeat;
+            background-size: 400px 90%;
+            background-position: center;
+        }
+        .judul h2{
+            color:rgb(247, 199, 0);
+            text-shadow: 5px 2px 5px #000000;
+            letter-spacing: 2px;
+        }
+        #container{
+            max-width: 80%;
+            margin: 20px auto;
+            background-color: #f3f3f3;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.9);
+
+        }
+        .pos{
+            display: flex;
+            justify-content:flex-start;
+            align-items: center;
+            flex-wrap: wrap;
+            padding: 20px;
+        }
+        .card{
+            width: 320px;
+            height: 730px;
+            padding-bottom: 20px;
+            margin-bottom: 20px;
+            background-color: white;
+            border-radius: 10px;
+            margin-left: 2%;
+            border: 1px solid #748894;
+        }
+
+        .card img{
+            width: 100%;
+            height: 350px;
+        }
+        .card:hover{
+            transform: scale(1.1);
+            border: 5px solid #00a6a6;
+        }
+        .card-detail{
+            padding: 0 20px;
+            text-align: left;
+        }
+        .card-detail h1{
+            font-size: 18px;
+            line-height: 30px;
+            padding: 20px 0 10px 0;
+        }
+        .card-detail p{
+            font-size: 16px;
+            padding: 5px 0 0 0;
+            line-height: 30px;
+        }
+        .card-image{
+            border: 2px solid #748894;
+        }
+
+        @media only screen and (max-width: 768px){
+            .pos{
+                padding-left: 25px;
+            }
+
+            .judul{
+                background-size: 300px 80%;
+            }
+            .judul h2{
+                font-size: 25px;
+            }
+        }
+
+    </style>
+</head>
+<body>
+    <section id="header">
+        <a href="../Index.html"><img src="../img/Logo.png" class="logo" alt=""></a>
+        <i id="icon" class="ph ph-list"></i>
+        <div id="nav">
+            <ul id="navbar" class="hidden">
+                <li><a href="../Index.html">Home</a></li>
+                <li><a  href="../fitur/kontak.html" id="tes">Kontak</a></li>
+            </ul>
+        </div>
+    </section>
+    <section id="container">
+        <div class="judul"> 
+            <h2>Karya</h2>
+        </div>
+        <div class="pos">
+            <div class="card">
+                <a href="../Karya/Tugas-Akhir-Akbar-Anggit-Pambudi-S1-Telkom-University.pdf" target="_blank"  style="text-decoration: none;">
+                    <div class="card-image">
+                        <img src="../Karya/ta.png" alt="judul">
+                    </div>
+                    <div class="card-detail">
+                        <h1>Analisis Pemanfaatan Teknologi Informasi Terhadap Kesesuaian Kinerja Sistem Dan Kebutuhan Pengguna Igracias di Telkom University Menggunakan Model Task Technology Fit (TTF)</h1>
+                        <p>Penulis: Akbar Anggit Pambudi</p>
+                        <p>Tahun  : 2021</p>
+                    </div>
+                </a>
+            </div>
+            <div class="card">
+                <a href="../Karya/Tesis-Akbar-Anggit-Pambudi-Manajemen-Universitas-Widyatama.pdf" target="_blank" style="text-decoration: none;">
+                    <div class="card-image">
+                        <img src="../Karya/tesis.png" alt="judul">
+                    </div>
+                    <div class="card-detail">
+                        <h1>Pengaruh Citra Merek Dan Kualitas Produk Terhadap Niat Beli Ulang Yang di Mediasi Oleh Kepuasan Pelanggan (Studi Pada Pemanas Air PT. Dewata Vulcanindo Suryajaya Cabang Bandung)</h1>
+                        <p>Penulis: Akbar Anggit Pambudi</p>
+                        <p>Tahun  : 2024</p>
+                    </div>
+                </a>
+            </div>
+            <div class="card">
+                <a href="../Karya/Laporan-Kunjungan-KKL-PT.Yakult-Persada-Sukabumi.pdf" target="_blank" style="text-decoration: none;">
+                    <div class="card-image">
+                        <img src="../Karya/KKL.png" alt="judul">
+                    </div>
+                    <div class="card-detail">
+                        <h1>Laporan Kunjungan Industri PT. Yakult Indonesia Persada di Sukabumi</h1>
+                        <p>Penulis: Akbar Anggit Pambudi</p>
+                        <p>Tahun  : 2023</p>
+                    </div>
+                </a>
+            </div>
+            <div class="card">
+                <a href="../Karya/The-Complete-Full-Stack-Website-Development.pdf" target="_blank" style="text-decoration: none;">
+                    <div class="card-image">
+                        <img src="../Karya/web.png" alt="judul">
+                    </div>
+                    <div class="card-detail">
+                        <h1>The Complete Full Stack Website Development</h1>
+                        <p>Penulis: Akbar Anggit Pambudi</p>
+                        <p>Tahun  : 2021</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section id="cv" class="section-p1">
+        <div class="cv-menu">
+            <a href="../fitur/pendidikan.html">
+                <img src="../img/menu/pendidikan.png"  alt="">
+                <h6>Pendidikan</h6>
+            </a>
+        </div>
+        <div class="cv-menu">
+            <a href="../fitur/pengalaman.html">
+                <img src="../img/menu/pengalaman.png"  alt="">
+                <h6>Pengalaman</h6>
+            </a>
+        </div>
+        <div class="cv-menu">
+            <a href="../fitur/sertifikate.html">
+                <img src="../img/menu/certificate.png"  alt="">
+                <h6>Sertfikat</h6>
+            </a>
+        </div>
+        <div class="cv-menu">
+            <a href="../fitur/skil.html">
+                <img src="../img/menu/skills.png"  alt="">
+                <h6>Kemampuan</h6>
+            </a>
+        </div>
+        <div class="cv-menu">
+            <a href="../fitur/karya.html">
+                <img src="../img/menu/editor.png"  alt="">
+                <h6>Karya</h6>
+            </a>
+        </div>
+        <div class="cv-menu">
+            <a href="../fitur/library.html">
+                <img src="../img/menu/library.png"  alt="">
+                <h6>Perpustakaan</h6>
+            </a>
+        </div>
+    </section>
+
+    <section id="footer">
+            <h4>Copyright © 2026 Designed by Akbar Anggit Pambudi | All Right Reserved</h4>
+    </section>
+
+    <script src="../script.js"></script>
+</body>
+</html>

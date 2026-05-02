@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Akbar Anggit Pambudi</title>
+    <link rel="stylesheet" href="../style.css">
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+    <style>
+        .judul{
+            text-align: center;
+            padding-top: 5px;
+            text-align: center;
+            background-image: url("../img/judul.png");
+            background-repeat: no-repeat;
+            background-size: 350px 90%;
+            background-position: center;
+        }
+        .judul h2{
+            display: inline-block;
+            padding: 30px 0;
+            color:rgb(247, 199, 0);
+            text-shadow: 5px 2px 5px #000000;
+        }
+        #container{
+            max-width: 80%;
+            margin: 20px auto;
+            background-color: #f3f3f3;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.9);
+
+        }
+        #perpus{
+            display: flex;
+            justify-content:flex-start;
+            align-items: center;
+            flex-wrap: wrap;
+            padding: 20px;
+        }
+
+        #ebook{
+            
+            width: 320px;
+            height: 630px;
+            border: 1px solid #748894;
+            padding-bottom: 20px;
+            margin-bottom: 20px;
+            background-color: white;
+            border-radius: 10px;
+            transition: transform 0.3s ease;
+            margin-left: 2%;
+        }
+
+        #ebook a{
+            text-decoration: none;
+        }
+
+        #ebook img{
+            width: 100%;
+            height: 350px;
+        }
+        #ebook:hover{
+            transform: scale(1.1);
+            border: 5px solid #00a6a6
+        }
+        #isi-ebook{
+            padding: 0 20px;
+            text-align: justify;
+        }
+        #isi-ebook h1{
+            font-size: 18px;
+            line-height: 30px;
+            padding: 20px 0 10px 0;
+            text-align: left;
+        }
+        #isi-ebook p{
+            font-size: 16px;
+            padding: 5px 0 0 0;
+            line-height: 30px;
+        }
+        .card-image{
+            border: 2px solid #748894;
+        }
+
+
+    </style>
+</head>
+<body>
+    <section id="header">
+        <a href="../Index.html"><img src="../img/Logo.png" class="logo" alt=""></a>
+        <i id="icon" class="ph ph-list"></i>
+        <div id="nav">
+            <ul id="navbar" class="hidden">
+                <li><a href="../Index.html">Home</a></li>
+                <li ><a  href="../fitur/kontak.html" id="tes">Kontak</a></li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="container">
+        <div class="judul"> 
+            <h2>E-Book</h2>
+        </div>
+
+        <div id="perpus">
+            <div id="ebook">
+                <a href="../ebook/Publik-Speaking Mastery.pdf" target="_blank">
+                    <div class="card-image">
+                    <img src="../ebook/bahasa 1.jpg" alt="judul">
+                </div>
+                <div id="isi-ebook">
+                    <h1>Publik-Speaking Mastery</h1>
+                    <p>Penulis: Onky Hojanto</p>
+                    <p>Tahun: 2002</p>
+                    <p>Kategori: Bahasa</p>
+                </div> 
+                </a>
+            </div>
+
+            <div id="ebook">
+                <a href="../ebook/Bahasa_Korea_part1.pdf" target="_blank">
+                    <div class="card-image">
+                    <img src="../ebook/bahasa2.jpg" alt="judul">
+                </div>
+                <div id="isi-ebook">
+                    <h1>Belajar Bahasa Korea Part 1</h1>
+                    <p>Penulis: M. Hasan Hwang</p>
+                    <p>Tahun: 2024</p>
+                    <p>Kategori: Bahasa</p>
+                </div> 
+                </a>
+            </div>
+            <div id="ebook">
+                <a href="../ebook/bahasa_Korea_part2.pdf" target="_blank">
+                    <div class="card-image">
+                    <img src="../ebook/bahasa3.png" alt="judul">
+                </div>
+                <div id="isi-ebook">
+                    <h1>Belajar Bahasa Korea Part 2</h1>
+                    <p>Penulis: M. Hasan Hwang</p>
+                    <p>Tahun: 2024</p>
+                    <p>Kategori: Bahasa</p>
+                </div> 
+                </a>
+            </div>
+            <div id="ebook">
+                <a href="../ebook/Metode-Penelitian-Kuantitatif.pdf" target="_blank">
+                    <div class="card-image">
+                    <img src="../ebook/karyailmiah1.jpg" alt="judul">
+                </div>
+                <div id="isi-ebook">
+                    <h1>Metode Penelitian Kuantitif</h1>
+                    <p>Penulis: Priyono</p>
+                    <p>Tahun: 2008</p>
+                    <p>Kategori: Karya Ilmiah</p>
+                </div> 
+                </a>
+            </div>
+
+            <div id="ebook">
+                <a href="../ebook/METODOLOGI-PENELITIAN-KUANTITATIF,-KUALITATIF-DAN-KOMBINASI.pdf" target="_blank">
+                    <div class="card-image">
+                    <img src="../ebook/karyailmiah2.jpg" alt="judul">
+                </div>
+                <div id="isi-ebook">
+                    <h1>Metodologi Penelitian Kuantitatif, Kualitatif Dan Kombinasi</h1>
+                    <p>Penulis: Ns. Arif Munandar</p>
+                    <p>Tahun : 2014</p>
+                    <p>Kategori: Karya Ilmiah</p>
+                </div> 
+                </a>
+            </div>
+
+            <div id="ebook">
+                <a href="../ebook/Statistika-untuk-Penelitian-Pendidikan-dan-Aplikasinya-dengan-SPSS-&-Excel.pdf" target="_blank">
+                    <div class="card-image">
+                    <img src="../ebook/karyailmiah3.jpg" alt="judul">
+                </div>
+                <div id="isi-ebook">
+                    <h1>Statistika untuk Penelitian Pendidikan dan Aplikasinya dengan SPSS & Excel</h1>
+                    <p>Penulis: Ali Anwar</p>
+                    <p>Tahun: 2009</p>
+                    <p>Kategori: Karya Ilmiah</p>
+                </div> 
+                </a>
+            </div>
+
+            <div id="ebook">
+                <a href="../ebook/Belajar-Otodidak-SPSS-Pasti-Bisa.pdf" target="_blank">
+                    <div class="card-image">
+                    <img src="../ebook/karyailmiah4.jpg" alt="judul">
+                </div>
+                <div id="isi-ebook">
+                    <h1>Belajar Otodidak SPSS Pasti Bisa</h1>
+                    <p>Penulis: Sufren Yonathan Natanael</p>
+                    <p>Tahun: 2014</p>
+                    <p>Kategori: Karya Ilmiah</p>
+                </div> 
+                </a>
+            </div>
+
+            <div id="ebook">
+                <a href="../ebook/Mengolah-Data-Penelitian-Bisnis-Dengan-SPSS.pdf" target="_blank">
+                    <div class="card-image">
+                    <img src="../ebook/karyailmiah5.jpg" alt="judul">
+                </div>
+                <div id="isi-ebook">
+                    <h1>Mengolah Data Penelitian Bisnis Dengan SPSS</h1>
+                    <p>Penulis: Azuar Juliandi, Irfan, Saprinal Manurung etc</p>
+                    <p>Tahun: 2016</p>
+                    <p>Kategori: Karya Ilmiah</p>
+                </div> 
+                </a>
+            </div>
+
+            <div id="ebook">
+                <a href="../ebook/Regresi-Linear-Tutorial-SPSS-Lengkap.pdf" target="_blank">
+                    <div class="card-image">
+                    <img src="../ebook/karyailmiah6.jpg" alt="judul">
+                </div>
+                <div id="isi-ebook">
+                    <h1>Regresi Linear Tutorial SPSS Lengkap</h1>
+                    <p>Penulis: Ce Gunawan</p>
+                    <p>Tahun: 2019</p>
+                    <p>Kategori: Karya Ilmiah</p>
+                </div> 
+                </a>
+            </div>
+
+            <div id="ebook">
+                <a href="../ebook/Membangun-Aplikasi-Inventory-Multi-Store-dengan-Visual-Basic-dan-MySQL.pdf" target="_blank">
+                    <div class="card-image">
+                    <img src="../ebook/web1.jpg" alt="judul">
+                </div>
+                <div id="isi-ebook">
+                    <h1>Membangun Aplikasi Inventory Multi Store dengan Visual Basic dan MySQL</h1>
+                    <p>Penulis: Zayid Musiafa</p>
+                    <p>Tahun: 2019</p>
+                    <p>Kategori: Web Development</p>
+                </div> 
+                </a>
+            </div>
+
+            <div id="ebook">
+                <a href="../ebook/Pemrograman-Web-dengan-Menggunakan-PHP-dan-Framework-Codeigniter.pdf" target="_blank">
+                    <div class="card-image">
+                    <img src="../ebook/web2.jpg" alt="judul">
+                </div>
+                <div id="isi-ebook">
+                    <h1>Pemrograman Web dengan Menggunakan PHP dan Framework Codeigniter</h1>
+                    <p>Penulis: Supono dan Vidiandry Putratama</p>
+                    <p>Tahun: 2018</p>
+                    <p>Kategori: Web Development</p>
+                </div> 
+                </a>
+            </div>
+
+            <div id="ebook">
+                <a href="../ebook/Belajar-HTML-CSS-Tutorial-Fundamental-dalam-Mempelajari-HTML-CSS.pdf" target="_blank">
+                    <div class="card-image">
+                    <img src="../ebook/web3.jpg" alt="judul">
+                </div>
+                <div id="isi-ebook">
+                    <h1>Belajar HTML CSS, Tutorial Fundamental dalam Mempelajari HTML CSS</h1>
+                    <p>Penulis: Rian Ariona</p>
+                    <p>Tahun: 2013</p>
+                    <p>Kategori: Web Development</p>
+                </div> 
+                </a>
+            </div>
+
+            <div id="ebook">
+                <a href="../ebook/Kaya-dari-Bisnis-Properti.pdf" target="_blank">
+                    <div class="card-image">
+                    <img src="../ebook/marketing1.jpg" alt="judul">
+                </div>
+                <div id="isi-ebook">
+                    <h1>Kaya dari Bisnis Properti</h1>
+                    <p>Penulis: Dadan Darmawan</p>
+                    <p>Tahun: 2009</p>
+                    <p>Kategori: Marketing</p>
+                </div> 
+                </a>
+            </div>
+
+            <div id="ebook">
+                <a href="../ebook/Pemasaran-dan-Kepuasan-Pelanggan.pdf" target="_blank">
+                    <div class="card-image">
+                    <img src="../ebook/marketing2.jpg" alt="judul">
+                </div>
+                <div id="isi-ebook">
+                    <h1>Pemasaran dan Kepuasan Pelanggan</h1>
+                    <p>Penulis: Meithiana Indrasari</p>
+                    <p>Tahun: 2021</p>
+                    <p>Kategori: Marketing</p>
+                </div> 
+                </a>
+            </div>
+
+            <div id="ebook">
+                <a href="../ebook/Seni-Penulisan-Efektif-untuk-Digital-Marketing-Bagaimana Kata-Kata-yang-Tepat-Dapat-Meningkatkan-Penjualan-Brand-Kamu.pdf" target="_blank">
+                    <div class="card-image">
+                    <img src="../ebook/marketing3.jpg" alt="judul">
+                </div>
+                <div id="isi-ebook">
+                    <h1>Seni Penulisan Efektif untuk Digital Marketing </h1>
+                    <p>Penulis: Dian Martin</p>
+                    <p>Tahun: 2010</p>
+                    <p>Kategori: Marketing</p>
+                </div> 
+                </a>
+            </div>
+
+            <div id="ebook">
+                <a href="../ebook/Desain-Grafis-Kreasi-Efek-Photoshop-CC.pdf" target="_blank">
+                    <div class="card-image">
+                    <img src="../ebook/desain1.jpg" alt="judul">
+                </div>
+                <div id="isi-ebook">
+                    <h1>Desain Grafis Kreasi Efek Photoshop CC</h1>
+                    <p>Penulis: Teguh Setiadi</p>
+                    <p>Tahun: 2020</p>
+                    <p>Kategori: Desain</p>
+                </div> 
+                </a>
+            </div>
+
+            <div id="ebook">
+                <a href="../ebook/Djang-Rest-Api-Portal-Berita-Version-1.1.pdf" target="_blank">
+                    <div class="card-image">
+                    <img src="../ebook/web4.jpg.png" alt="judul">
+                </div>
+                <div id="isi-ebook">
+                    <h1>Django Rest API</h1>
+                    <p>Penulis: Rizqi Maulana</p>
+                    <p>Tahun: 2020</p>
+                    <p>Kategori: Web Development</p>
+                </div> 
+                </a>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="cv" class="section-p1">
+        <div class="cv-menu">
+            <a href="../fitur/pendidikan.html">
+                <img src="../img/menu/pendidikan.png"  alt="">
+                <h6>Pendidikan</h6>
+            </a>
+        </div>
+        <div class="cv-menu">
+            <a href="../fitur/pengalaman.html">
+                <img src="../img/menu/pengalaman.png"  alt="">
+                <h6>Pengalaman</h6>
+            </a>
+        </div>
+        <div class="cv-menu">
+            <a href="../fitur/sertifikate.html">
+                <img src="../img/menu/certificate.png"  alt="">
+                <h6>Sertfikat</h6>
+            </a>
+        </div>
+        <div class="cv-menu">
+            <a href="../fitur/skil.html">
+                <img src="../img/menu/skills.png"  alt="">
+                <h6>Kemampuan</h6>
+            </a>
+        </div>
+        <div class="cv-menu">
+            <a href="../fitur/karya.html">
+                <img src="../img/menu/editor.png"  alt="">
+                <h6>Karya</h6>
+            </a>
+        </div>
+        <div class="cv-menu">
+            <a href="../fitur/library.html">
+                <img src="../img/menu/library.png"  alt="">
+                <h6>Perpustakaan</h6>
+            </a>
+        </div>
+    </section>
+
+    <section id="footer">
+            <h4>Copyright © 2026 Designed by Akbar Anggit Pambudi | All Right Reserved</h4>
+    </section>
+    <script src="../script.js"></script>
+</body>
+</html>

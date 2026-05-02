@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Akbar Anggit Pambudi</title>
+    <link rel="stylesheet" href="../style.css">
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+    <style>
+        #kontak{
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            flex-wrap: wrap;
+            padding: 15px 0;
+        }
+        #saran{
+            display:block;
+        }
+        #kiri{
+            background-color: white;
+            width:80vh;   
+            padding: 10px 0 20px 0;
+        }
+
+        #judul-sosmed{
+            padding: 0 30px;
+            
+        }
+        #judul-sosmed h3{
+            padding-bottom: 0;
+            font-size: 20px;
+            text-align:justify;
+            font-size: 20px;
+            line-height: 30px;
+        }
+        #sosmed{
+            padding: 20px 0 25px 0;
+            text-align: center;
+            
+        }
+        #sosmed img{
+            width: 180px;
+        }
+        #sosmed:hover{
+            transform: scale(1.1);
+        }
+        #kanan{
+            background-color: white;
+            padding: 10px 20px 20px 20px;
+            width: 80vh;
+            align-content: center;
+        }
+        #kanan h3{
+            padding-bottom: 10px;
+            font-size: 20px;
+            text-align: center;
+        }
+
+        #saran{
+            display: flex;
+        }
+        #saran textarea{
+           width: 100%;
+           height: 468px;
+           margin: 20px 0;
+           text-align: center;
+           padding: 10px 10px;
+           
+        }
+        #saran input{
+          width: 100%;
+          height: 45px;
+          text-align: center;
+          padding: 10px 10px;
+          
+        }
+        #submit{
+            background: linear-gradient(45deg,rgb(3, 117, 207),rgb(26, 189, 248));
+            padding: 15px 0;
+            width: 100%;
+            font-size: 20px;
+            text-shadow: 2px 2px 3px #000000;
+            box-shadow: 10px 8px 10px rgba(0,0,0,0.3);
+            font-weight:800;
+            border: none;
+            border-radius: 50px;
+            letter-spacing: 1px;
+            color:gold;
+        }
+        #submit:hover{
+            background:rgb(77, 241, 26);
+            box-shadow: none;
+            transform: scale(1.1);
+        }
+        @media only screen and (max-width: 768px){
+            #kontak{
+                padding-top: 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <section id="header">
+        <a href="../Index.html"><img src="../img/Logo.png" class="logo" alt=""></a>
+        <i id="icon" class="ph ph-list"></i>
+        <div id="nav">
+            <ul id="navbar" class="hidden">
+                <li><a  href="../Index.html">Home</a></li>
+                <li ><a class="active" href="../fitur/kontak.html" id="tes">Kontak</a></li>
+            </ul>
+        </div>        
+    </section>
+    <section id="kontak">
+        <div id="kiri">
+            <div id="judul-sosmed">
+                <h3>Tertarik untuk bekerja sama atau ingin 
+                    mengetahui lebih lanjut tentang pengalaman dan proyek saya? 
+                    Silakan hubungi saya melalui kontak di bawah ini:</h3>
+            </div>
+            <div id =sosmed>
+                <a href="https://wa.me/083822222696?text=Halo Akbar" target="_blank">
+                    <img src="../img/kontak/whatsapp.png" alt="">
+                </a>
+            </div>
+
+            <div id =sosmed>
+                <a href="mailto:akbaranggitpambudi123@gmail.com" target="_blank">
+                    <img src="../img/kontak/gmail.png" alt="">
+                </a>
+            </div>
+
+            <div id =sosmed>
+                <a href="https://www.linkedin.com/in/akbar-anggit-pambudi-5503b932b" target="_blank">
+                    <img src="../img/kontak/linkedin.png" alt="">
+                </a>
+            </div>
+
+            <div id =sosmed>
+                <a href="https://www.instagram.com/akbaranggitpambudii" target="_blank">
+                    <img src="../img/kontak/Instagram.jpg" alt="">
+                </a>
+            </div>
+
+            <div id =sosmed>
+                <a href="https://web.facebook.com/people/Akbar-Anggit-Pambudi/pfbid02xqqbJP7xY15BWaVLKeecdv2PBsxoT3pCB28ecBRYLBiWKofwJnPA9NYuidk4CtHRl/" target="_blank">
+                    <img src="../img/kontak/Facebook.png" alt="">
+                </a>
+            </div>
+        </div>
+
+        </div>
+        <div id="kanan">
+            <h3>Kritik Dan Saran</h3>
+            <div id="nama">
+                <form id="myForm">
+                    <div id="saran">
+                        <input type="text" id="input-nama" placeholder="Masukan Nama Anda">
+                    </div>
+                    <div id="saran">
+                        <textarea  id="isi-saran" placeholder="Masukan saran anda"></textarea>
+                    </div>
+                <button id="submit" type="button" onclick="submitForm()">Kirim</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <section id="cv" class="section-p1">
+        <div class="cv-menu" id="menu">
+            <a href="../fitur/pendidikan.html">
+                <img src="../img/menu/pendidikan.png"  alt="">
+                <h6>Pendidikan</h6>
+            </a>
+        </div>
+        <div class="cv-menu">
+            <a href="../fitur/pengalaman.html">
+                <img src="../img/menu/pengalaman.png"  alt="">
+                <h6>Pengalaman</h6>
+            </a>
+        </div>
+        <div class="cv-menu">
+            <a href="../fitur/sertifikate.html">
+                <img src="../img/menu/certificate.png"  alt="">
+                <h6>Sertfikat</h6>
+            </a>
+        </div>
+        <div class="cv-menu">
+            <a href="../fitur/skil.html">
+                <img src="../img/menu/skills.png"  alt="">
+                <h6>Kemampuan</h6>
+            </a>
+        </div>
+        <div class="cv-menu">
+            <a href="../fitur/karya.html">
+                <img src="../img/menu/editor.png"  alt="">
+                <h6>Karya</h6>
+            </a>
+        </div>
+        <div class="cv-menu">
+            <a href="../fitur/library.html">
+                <img src="../img/menu/library.png"  alt="">
+                <h6>Perpustakaan</h6>
+            </a>
+        </div>
+    </section>
+
+    <section id="footer">
+            <h4>Copyright © 2026 Designed by Akbar Anggit Pambudi | All Right Reserved</h4>
+    </section>
+
+    <script src="../script.js"></script>
+    <script>
+        function submitForm() {
+            let nama = document.getElementById("input-nama").value;
+            let pesan = document.getElementById("isi-saran").value;
+
+            if (nama.trim() !== "" && pesan.trim() !== "") {
+              alert("Data berhasil dikirim, terima kasih atas sarannya.");
+              document.getElementById("myForm").reset();
+            } else {
+              alert("Data gagal dikirim, harap isi Nama dan Saran");
+            }
+        };
+    </script>
+</body>
+</html>

@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Akbar Anggit Pambudi</title>
+    <link rel="stylesheet" href="../style.css">
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+    <style>
+        #judul{
+            padding-top: 5px;
+        }
+        #judul-pendidikan{
+            text-align: center;
+            background-image: url("../img/judul.png");
+            background-repeat: no-repeat;
+            background-size: 600px 90%;
+            background-position: center;
+        }
+        #judul-pendidikan h2{
+            display: inline-block;
+            padding: 30px 0;
+            color:rgb(247, 199, 0);
+            text-shadow: 5px 2px 5px #000000;
+            letter-spacing: 2px;
+        }
+
+        #pengalaman{
+            text-align: center;
+            padding-left: 70px;
+        }
+        #pengalaman h2{
+            border-bottom: 5px solid black;
+            display: inline-block;
+            padding-top: 40px;
+        }
+
+        #tipe2{
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            flex-wrap: wrap;
+            padding: 20px 10px 0 20px ;
+        }
+
+        #fotos1{
+            padding-bottom: 20px;
+            flex-wrap: wrap;
+            width: 450px;
+            height: 300px;
+            overflow: hidden;
+        }
+        #fotos1 img{
+            width: 100%;
+            height: 100%;
+            border-radius: 10px;
+        }
+        #konten-pendidikan{
+            text-align: justify;
+            margin-right: 10px;
+            margin-left: 0;
+            margin-bottom: 20px;
+            padding: 20px 20px 20px 40px;
+            box-shadow: 20px 20px 34px rgba(0,0,0,0.3);
+            width: 700px;
+            padding: 20px 30px;
+            background-color: white;
+        }
+        #konten-pendidikan h3{
+            padding-top: 10px;
+            font-size: 22px;
+            font-weight: 600;
+            color: #222;
+            letter-spacing: 2px;
+            line-height: 35px;
+        }
+        .tahun{
+            font-size: 21px;
+            font-weight: 500;
+        }
+
+        #konten-pendidikan p{
+            font-size: 20px;
+        }
+
+        #konten-pendidikan h1{
+            font-size: 26px;
+            text-align: left;
+        }
+        #f-sales{
+            position: relative;
+            left: 0;
+            width:300%;
+            height: 100%;
+            animation: 15s slide-sales infinite;
+        }
+        .slide-sales{
+            position: relative;
+            width: 33.33%;
+            height: 100%;
+            float: left;
+        }
+        
+        @keyframes slide-sales{
+            0%{
+                left:0;
+            }
+            20%{
+                left:0;
+            }
+            40%{
+                left:-100%;
+            }
+            60%{
+                left:-100%;
+            }
+            80%{
+                left:-200%;
+            }
+            100%{
+                left:-200%;
+            }
+        }
+
+        #f-s1{
+            position: relative;
+            left: 0;
+            width: 200%;
+            height: 100%;
+            animation: 10s slide-s1 infinite;
+        }
+        .slide-s1{
+            position: relative;
+            width: 50%;
+            height: 100%;
+            float: left;
+        }
+        
+        @keyframes slide-s1{
+            0%{
+                left:0;
+            }
+            30%{
+                left:0;
+            }
+            70%{
+                left:-100%;
+            }
+            100%{
+                left:-100%;
+            }
+            
+        }
+        @media only screen and (max-width: 768px){
+            #judul-pendidikan{
+                background-size: 420px 90%;
+            }
+            #judul-pendidikan h2{
+                font-size: 27px;
+            }
+            #konten-pendidikan h3{
+                font-size: 20px;
+            }
+            #konten-pendidikan h1{
+                font-size: 23px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <section id="header">
+        <a href="../Index.html"><img src="../img/Logo.png" class="logo" alt=""></a>
+        <i id="icon" class="ph ph-list"></i>
+        <div id="nav">
+            <ul id="navbar" class="hidden">
+                <li><a  href="../Index.html">Home</a></li>
+                <li><a  href="../fitur/kontak.html" id="tes">Kontak</a></li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="judul">
+        <div id="judul-pendidikan">
+            <h2>Pengalaman Magang</h2>
+        </div>
+    </section>
+
+    <section id="tipe2">
+        <div id="konten-pendidikan">
+            <h1>Web Developer</h1>
+            <h3>PT. PLN Unit Induk Pembangunan  JBT<br><span class="tahun">Juli - Agustus 2020</span></h3>
+            <p>Tanggung jawab pekerjaan meliputi membangun aplikasi web berbasis PHP untuk sistem rekap data end-to-end 
+                untuk meningkatkan efisiensi proses rekap manual menjadi sistem digital, 
+                merancang UI/UX menggunakan Figma, implementasi Front-End, hingga 
+                pengembangan Back-End logic, 
+                melakukan integrasi dan pengelolaan database lokal menggunakan MySQL 
+                untuk memastikan penyimpanan data yang terstruktur, akurat, dan mudah 
+                diakses.</p>
+        </div>
+
+        <div id="fotos1">
+            <img src="../img/pengalaman/pln.jpg" alt="">
+        </div>
+    </section>
+
+    <section id="judul">
+        <div id="judul-pendidikan">
+            <h2>Pengalaman Kerja</h2>
+        </div>
+    </section>
+
+    <section id="tipe2">
+        <div id="konten-pendidikan">
+            <h1>Salesman CHP</h1>
+            <h3>PT. Anugrah Argon Medica<br><span class="tahun">Desember 2024 - April 2025</span></h3>
+            <p>Mengelola lebih dari 80 relasi aktif di wilayah Bandung Barat 
+                dengan fokus pada loyalitas pelanggan dan branding 
+                produk OTC Bayer. Berhasil mencapai target penjualan 
+                dengan rata-rata di atas 105% selama 4 bulan berturut-turut melalui 
+                implementasi komunikasi dan strategi penjualan. Mengelola proses pemesanan dan retur produk menggunakan 
+                sistem internal perusahaan. Secara konsisten merencanakan, 
+                melaksanakan, dan mengevaluasi kunjungan relasi harian untuk memastikan 
+                pencapaian target. Selain itu, berhasil 
+                mengikutsertakan 20 relasi sesuai target dalam program edisi 
+                Ramadan “Bayer House” sebagai bagian dari inisiatif peningkatan engagement.</p>
+        </div>
+
+        <div id="fotos1">
+            <figure id="f-sales">
+                <div class="slide-sales">
+                    <img src="../img/pengalaman/sales1.jpg">
+                </div>
+                <div class="slide-sales">
+                    <img src="../img/pengalaman/sales2.jpg">
+                </div>
+                <div class="slide-sales">
+                    <img src="../img/pengalaman/sales3.jpg">
+                </div>
+            </figure>
+        </div>
+    </section>
+
+    <section id="tipe2">
+        <div id="konten-pendidikan">
+            <h1>Engineer Telekomunikasi XL Smart</h1>
+            <h3>PT. Noto Teknologi Internasional<br><span class="tahun">November 2024 - Febuari 2026</span></h3>
+            <p>Melakukan instalasi teknologi 5G, konfigurasi, serta pemeliharaan perangkat jaringan telekomunikasi, 
+                termasuk BTS dan sistem transmisi, di wilayah Lombok. Memastikan 
+                seluruh perangkat berfungsi optimal sesuai standar operasional. Berkoordinasi secara 
+                aktif dengan tim internal serta integrator pusat dalam proses implementasi proyek guna 
+                memastikan kelancaran dan ketepatan waktu pengerjaan. Berhasil menyelesaikan 
+                4 site proyek jaringan, mencakup kegiatan rollout, upgrade, dan modernisasi, 
+                dengan hasil yang sesuai target dan spesifikasi teknis yang ditetapkan.</p>
+        </div>
+
+        <div id="fotos1">
+            <figure id="f-s1">
+                <div class="slide-s1">
+                    <img src="../img/pengalaman/telco1.jpg">
+                </div>
+                <div class="slide-s1">
+                    <img src="../img/pengalaman/telco2.jpg">
+                </div>
+            </figure>
+        </div>
+    </section>
+
+    <section id="cv" class="section-p1">
+        <div class="cv-menu">
+            <a href="../fitur/pendidikan.html">
+                <img src="../img/menu/pendidikan.png"  alt="">
+                <h6>Pendidikan</h6>
+            </a>
+        </div>
+        <div class="cv-menu">
+            <a href="../fitur/pengalaman.html">
+                <img src="../img/menu/pengalaman.png"  alt="">
+                <h6>Pengalaman</h6>
+            </a>
+        </div>
+        <div class="cv-menu">
+            <a href="../fitur/sertifikate.html">
+                <img src="../img/menu/certificate.png"  alt="">
+                <h6>Sertfikat</h6>
+            </a>
+        </div>
+        <div class="cv-menu">
+            <a href="../fitur/skil.html">
+                <img src="../img/menu/skills.png"  alt="">
+                <h6>Kemampuan</h6>
+            </a>
+        </div>
+        <div class="cv-menu">
+            <a href="../fitur/karya.html">
+                <img src="../img/menu/editor.png"  alt="">
+                <h6>Karya</h6>
+            </a>
+        </div>
+                <div class="cv-menu">
+            <a href="../fitur/library.html">
+                <img src="../img/menu/library.png"  alt="">
+                <h6>Perpustakaan</h6>
+            </a>
+        </div>
+    </section>
+
+    <section id="footer">
+            <h4>Copyright © 2026 Designed by Akbar Anggit Pambudi | All Right Reserved</h4>
+    </section>
+
+    <script src="../script.js"></script>
+</body>
+</html>

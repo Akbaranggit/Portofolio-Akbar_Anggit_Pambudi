@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Akbar Anggit Pambudi</title>
+    <link rel="stylesheet" href="../style.css">
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+    <style>
+        #judul{
+            padding-top: 5px;
+        }
+        #judul-pendidikan{
+            text-align: center;
+            background-image: url("../img/judul.png");
+            background-repeat: no-repeat;
+            background-size: 400px 90%;
+            background-position: center;
+        }
+        #judul-pendidikan h2{
+            display: inline-block;
+            padding: 40px 0;
+            color:rgb(247, 199, 0);
+            text-shadow: 5px 2px 5px #000000;
+            letter-spacing: 2px;
+        }
+
+        #konten-pendidikan{
+            margin-bottom: 20px;
+            background-color: white;
+            padding: 30px 30px;
+        }
+
+        #konten-pendidikan h3{
+            padding-top: 10px;
+            font-size: 22px;
+            font-weight: 600;
+            color: #222;
+            letter-spacing: 2px;
+        }
+        #konten-pendidikan p{   
+            font-size: 20px;
+        }
+
+        #tipe2{
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            flex-wrap: wrap;
+            padding: 30px 0 30px 13px;
+        }
+
+        #fotos1{
+            padding-top: 10px;
+            flex-wrap: wrap;
+            width: 450px;
+            height: 300px;
+            overflow: hidden;
+        }
+        #fotos1 img{
+            width: 100%;
+            height: 100%;
+        }
+        #f-s1{
+            position: relative;
+            left: 0;
+            width: 200%;
+            height: 100%;
+            animation: 10s slide-s1 infinite;
+        }
+        .slide-s1{
+            position: relative;
+            width: 50%;
+            height: 100%;
+            float: left;
+        }
+        
+        @keyframes slide-s1{
+            0%{
+                left:0;
+            }
+            30%{
+                left:0;
+            }
+            70%{
+                left:-100%;
+            }
+            100%{
+                left:-100%;
+            }
+            
+        }
+
+        #f-s2{
+            position: relative;
+            left: 0;
+            width:500%;
+            height: 100%;
+            animation: 30s slide-s2 infinite;
+        }
+        .slide-s2{
+            position: relative;
+            width: 20%;
+            height: 100%;
+            float: left;
+        }
+        
+        @keyframes slide-s2{
+            0%{
+                left:0;
+            }
+            5%{
+                left:0;
+            }
+            24%{
+                left:-100%;
+            }
+            29%{
+                left:-100%;
+            }
+            48%{
+                left:-200%;
+            }
+            53%{
+                left:-200%;
+            }
+            72%{
+                left:-300%;
+            }
+            77%{
+                left:-300%;
+            }
+            96%{
+                left:-400%;
+            }
+            100%{
+               
+                left:-400%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <section id="header">
+        <a href="../Index.html"><img src="../img/Logo.png" class="logo" alt=""></a>
+        <i id="icon" class="ph ph-list"></i>
+        <div id="nav">
+            <ul id="navbar" class="hidden">
+                <li><a  href="../Index.html">Home</a></li>
+                <li><a  href="../fitur/kontak.html" id="tes">Kontak</a></li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="judul">
+        <div id="judul-pendidikan">
+            <h2>Pendidikan</h2>
+        </div>
+    </section>
+
+    <section id="tipe2">
+        <div id="konten-pendidikan">
+            <h1>SD Negeri Cinyawang 01</h1>
+            <h3>2003 - 2009</h3>
+            <p> Menyelesaikan pendidikan dasar dengan fokus 
+                pada pembelajaran umum dan pengembangan keterampilan dasar. 
+                Aktif mengikuti kegiatan pramuka.</p>
+        </div>
+
+        <div id="fotos1">
+            <img src="../img/pendidikan/sd.jpg" alt="">
+        </div>
+        
+    </section>
+
+    <section id="tipe2">
+        <div id="konten-pendidikan">
+            <h1>SMP Negeri 1 Kedungreja</h1>
+            <h3>2009 - 2012</h3>
+            <p>Menyelesaikan pendidikan menengah pertama 
+                dengan fokus pada pengembangan akademik dan keterampilan dasar. 
+                Aktif mengikuti organisasi OSIS sebagai ketua seksi budi pekerti. 
+                Kemudian mengikuti ekstrakurikuler basket dan mewakili sekolah 
+                di perlombaan basket tingkat kecamatan.</p>
+        </div>
+
+        <div id="fotos1">
+            <img src="../img/pendidikan/smp.png" alt="">
+        </div>
+    </section>
+
+    <section id="tipe2">
+        <div id="konten-pendidikan">
+            <h1>Madrasah Aliyah Al Hikmah 2 Benda</h1>
+            <h3>IPA | 2012 - 2015</h3>
+            <p>Mengembangkan kemampuan analisis, pemecahan masalah, serta 
+                pemahaman konsep ilmiah melalui pembelajaran sains. Mengikuti 
+                organisasi IPA sebagai ketua seksi keamanan serta aktif mengikuti 
+                ekstrakurikuler basket.</p>
+        </div>
+
+        <div id="fotos1">
+            <figure id="f-s1">
+                <div class="slide-s1">
+                    <img src="../img/pendidikan/aliyah2.jpg">
+                </div>
+                <div class="slide-s1">
+                    <img src="../img/pendidikan/aliyah.jpg">
+                </div>
+            </figure>
+        </div>
+    </section>
+
+    <section id="tipe2">
+        <div id="konten-pendidikan">
+            <h1>Universitas Telkom</h1>
+            <h3>Sistem Informasi | 2015-2021</h3>
+            <p>Mempelajari konsep perancangan dan pengelolaan 
+                sistem informasi, analisis bisnis, serta pengembangan 
+                aplikasi berbasis teknologi. Memiliki pengetahuan dalam 
+                database management, analisis kebutuhan sistem. Aktif Mengikuti Organisasi kampus Generation Of Informasion System. 
+                Mata kuliah yang relevan meliputi Manajemen Rantai Pasok, Rekayasa Proses Bisnis, 
+                Basis Data, Pengembangan Aplikasi Web, Konfigurasi dan Implementasi ERP serta Data Warehouse & Business Intelligence</p>
+        </div>
+
+        <div id="fotos1">
+            <figure id="f-s1">
+                <div class="slide-s1">
+                    <img src="../img/pendidikan/s1-2.png">
+                </div>
+                <div class="slide-s1">
+                    <img src="../img/pendidikan/s1-3.jpg">
+                </div>
+            </figure>
+        </div>
+    </section>
+
+    <section id="tipe2">
+        <div id="konten-pendidikan">
+            <h1>Universitas Widyatama</h1>
+            <h3>Manajemen | 2021 - 2024</h3>
+            <p>Mendalami bidang manajemen dengan fokus pada perencanaan strategis, 
+                pengambilan keputusan bisnis, serta pengelolaan sumber daya organisasi. 
+                Memiliki pemahaman dalam analisis keuangan, pemasaran, dan manajemen operasional. 
+                Selama masa studi, mengerjakan berbagai studi kasus yang berkaitan 
+                dengan pengembangan strategi bisnis serta peningkatan kinerja perusahaan. Mendapatkan 
+                gelar cumlaude dalam menyelesaikan studi dengan IPK 3.92. Mata 
+                kuliah yang relevan meliputi Advanced Marketing Management, Advanced Financial 
+                Management, HR Management serta Leadership & Organizational Behavior</p>
+        </div>
+
+        <div id="fotos1">
+            <figure id="f-s2">
+                <div class="slide-s2">
+                    <img src="../img/pendidikan/s2-6.jpg" alt="">
+                </div>
+                <div class="slide-s2">
+                    <img src="../img/pendidikan/s2-2.jpg" alt="">
+                </div>
+                <div class="slide-s2">
+                    <img src="../img/pendidikan/s2-3.jpg" alt="">
+                </div>
+                <div class="slide-s2">
+                    <img src="../img/pendidikan/s2-1.jpg" alt="">
+                </div>
+                <div class="slide-s2">
+                    <img src="../img/pendidikan/s2-4.jpg" alt="">
+                </div>
+            </figure>
+        </div>
+    </section>
+
+    <section id="cv" class="section-p1">
+        <div class="cv-menu">
+            <a href="../fitur/pendidikan.html">
+                <img src="../img/menu/pendidikan.png"  alt="">
+                <h6>Pendidikan</h6>
+            </a>
+        </div>
+        <div class="cv-menu">
+            <a href="../fitur/pengalaman.html">
+                <img src="../img/menu/pengalaman.png"  alt="">
+                <h6>Pengalaman</h6>
+            </a>
+        </div>
+        <div class="cv-menu">
+            <a href="../fitur/sertifikate.html">
+                <img src="../img/menu/certificate.png"  alt="">
+                <h6>Sertfikat</h6>
+            </a>
+        </div>
+        <div class="cv-menu">
+            <a href="../fitur/skil.html">
+                <img src="../img/menu/skills.png"  alt="">
+                <h6>Kemampuan</h6>
+            </a>
+        </div>
+        <div class="cv-menu">
+            <a href="../fitur/karya.html">
+                <img src="../img/menu/editor.png"  alt="">
+                <h6>Karya</h6>
+            </a>
+        </div>
+        <div class="cv-menu">
+            <a href="../fitur/library.html">
+                <img src="../img/menu/library.png"  alt="">
+                <h6>Perpustakaan</h6>
+            </a>
+        </div>
+    </section>
+
+    <section id="footer">
+            <h4>Copyright © 2026 Designed by Akbar Anggit Pambudi | All Right Reserved</h4>
+    </section>
+
+    <script src="../script.js"></script>
+</body>
+</html>
